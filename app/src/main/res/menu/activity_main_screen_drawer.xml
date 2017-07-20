@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todayplan"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Today's Plan" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Weather Forecast" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Calendar" />
+    </group>
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Share" />
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Settings" />
+
+</menu>
